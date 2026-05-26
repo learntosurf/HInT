@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="523" height="203" viewBox="0 0 523 203">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,203)" d="M0 .09090859H522.9818V203.00002H0Z"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,0,203)" d="M495.7454 20.65457H508.8364V7.563627H495.7454Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,0,203)" d="M495.4909 7.290909H509.0182V20.81818H495.4909Z"/>
+</clipPath>
+<mask id="mask_4">
+<g transform="matrix(.20454595,0,0,.20454595,495.7454,182.34543)">
+<image id="image_5" width="64" height="64" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAAAAACPAi4CAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAB5klEQVR4nK2Xy0oCYRiG/9qIFllQRBCKhka0aVG0aaOQVFR3UBFl
+QnYH5UIhWzQGeQW6iRbeQhTqHZSWSrXpZEjQUSPra0YrTef0/5/vep5nGOY/fC8h
+UtGY7QuBRBGewssOq07yMYn0u/ZOX+Av+UxkbVA93eU8eIW6FGLuHlW4wX9VT5dz
+y5kVcb0nK4ULyfk65PmpYzlcSHJWBtduF5V4gK9gqxRvPFDGhcT6xPmhlDoe4HxE
+jB+9VssD3I2JvJ+CB8gO1/KGNA0PcFmzInSHdDxAvOWfgKPlAYLV/MQHveBzpsK3
+Jel5gHRlVXtYeADfL9+bYxM8GH8EW2w8AFfmO29YBffdJYGTlQdwC3zTEbsg3swL
+LG/sgsIAL3Cx8+Vv2McIIvz9cYYRZLTELHIFqE/eQuwYHsBB5nCCRbKDE4RJAid4
+JO84AeAF6E8I4AQh/G+04QTj+KWM3kzo7Yw/UNBHGvpQxRzrq425WIifVcA16nIl
+62wCb2XAYNrTqfbKiOJgGXGmGzlkEe0hLV8z5lEPmhcmUhPsqIsftvHjvvrCEZWs
+Xuoqz26LFM9nEle6+Og35GufV6H28TFsooqnEPHqm4+qrL6lWFf2ks9VcCbipijf
+5WhMtnnuhK//oaVxmfr/DUALNrIkOvo6AAAAAElFTkSuQmCC"/>
+</g>
+</mask>
+<clipPath id="clip_7">
+<path transform="matrix(1,0,0,-1,0,203)" d="M495.7454 129.3091H508.8364V116.2182H495.7454Z"/>
+</clipPath>
+<clipPath id="clip_8">
+<path transform="matrix(1,0,0,-1,0,203)" d="M495.4909 116.1636H509.0182V129.69087H495.4909Z"/>
+</clipPath>
+<mask id="mask_9">
+<g transform="matrix(.20454595,0,0,.20454484,495.7454,73.69093)">
+<image id="image_10" width="64" height="64" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAAAAACPAi4CAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAChklEQVR4nKWXP1MaQRjGX9PgqJEUxo7BORDSappYQmX0Mxg67ktE
+Wig4mqTgEwQ78wlAWynhQNHCOEZmHNMJgRkzb/YA4eVud2+Pfbp7bn/P/dvbfV8A
+kZaNdMZqDodNK5OOLQuHCZQ0K+1nnKrXPjE/qNOb2WoPPerXzE0lPJq/99Jj/S5s
++eLh3KMId/R4/E7OHzRkuKPmoQRfsV78eMR/pRURv1Xzxx3VBG/i47Uaj3i9y+P3
+uqo84sOel98NwCN2d9x89CYIj3gTdb3/82A84vn8tygF5RFLlN9X+P5uvXye8eE2
+PVMv/+Ijd+U6PWyHpwE56p++hbjN4+1tWDulRu6Vj/wh7s9V5hicBDvGTqzShKfI
+JKBAzIu1keVNGPEs4YJ4hTH/nk6hb5NQd8KEB/hOzO7GyMrSgbfxycCYzeVjt9TO
+Otab+TnUinHuweaZTGdLzEv8FdzsbLCIx36CmSaiT4KQRzSZe+I23YCExwpA6NLj
+kldmuw7cugyBwdkCyEWvOpLrsx3HgDTHpgmGjEdMwRHXnyXIeTwSrgTzCbznH6kI
+ojNzCaLrIzZgKDqFne1XPn4lHDTQD9B+BEuBl75E7c+YkvP+E0l7Kmv/TNq/s96C
+4iyKib4PL1vSnLm2dDbnBV9UtZd12NDdWCBPPN+tjW7Q+Ulo5ImYi2yucEwHqm/v
+X6d/ynqL+vXyHY/3FBit9WnAYiXOPhAtUGRZlNcv87QLTYCdhyC8t9QF+BQggVds
+s3K7o8rzy33WcFTVeFHDodryWMKWh+mw6cc3DiQ4KLR9YTkP0sbzPu/5+lzxW99e
+NavW+o6UNH/Q5vu5XTGT6vRYISOVKTYGg0bxi6z9/w/WP0lv0s89TAAAAABJRU5E
+rkJggg=="/>
+</g>
+</mask>
+</defs>
+<g>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,0,203)" d="M0 203H522.9818V.09090859H0Z" fill="#ffffff"/>
+</g>
+<path transform="matrix(1,0,0,-1,0,203)" d="M197.1636 197.6132C197.1636 198.9916 198.2811 200.1091 199.6595 200.1091H509.7223C511.1007 200.1091 512.2182 198.9916 512.2182 197.6132V115.3323C512.2182 113.9538 511.1007 112.8364 509.7223 112.8364H199.6595C198.2811 112.8364 197.1636 113.9538 197.1636 115.3323Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.00007874016,0,0,.00007874016,197.1636,2.8908997)" stroke-width="9525" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#002060" d="M0 31698.02C0 14191.69 14191.67 0 31697.99 0H3969495C3987001 0 4001193 14191.69 4001193 31698.02V1076665C4001193 1094171 3987001 1108363 3969495 1108363H31697.99C14191.67 1108363 0 1094171 0 1076665Z"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M197.1636 107.5523C197.1636 108.9041 198.2595 110 199.6113 110H509.7705C511.1223 110 512.2182 108.9041 512.2182 107.5523V6.62949C512.2182 5.277674 511.1223 4.181815 509.7705 4.181815H199.6113C198.2595 4.181815 197.1636 5.277674 197.1636 6.62949Z" fill="#ffffff" fill-rule="evenodd"/>
+<path transform="matrix(.00007874016,0,0,.00007874016,197.1636,93)" stroke-width="9525" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#002060" d="M0 31085.47C0 13917.44 13917.4 0 31085.38 0H3970107C3987275 0 4001193 13917.44 4001193 31085.47V1312806C4001193 1329974 3987275 1343891 3970107 1343891H31085.38C13917.4 1343891 0 1329974 0 1312806Z"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M107.6 14.54544H123.9636V5.818197H107.6Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M132.6909 14.76364H174.1454V5.818203H132.6909Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(.00007874016,0,0,.00007874016,2.981805,2.8908997)" stroke-width="9525" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#002060" d="M0 35585.29C0 15932.08 15932.08 0 35585.29 0H2400044C2419697 0 2435629 15932.08 2435629 35585.29V2452691C2435629 2472344 2419697 2488276 2400044 2488276H35585.29C15932.08 2488276 0 2472344 0 2452691Z"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M387.0909 186.2546H433.3454V177.5273H387.0909Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M297.2 176.2182H343.4546V167.491H297.2Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M373.3454 145.4546H419.6V136.7273H373.3454Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M398.8727 165.9636H413.4909V157.2364H398.8727Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M434.8727 165.9636H455.1636V157.2364H434.8727Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M280.6182 95.70906H327.0909V86.98182H280.6182Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M403.2364 44.87277H449.4909V36.14544H403.2364Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M464.1091 95.70906H484.6182V86.98182H464.1091Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M391.6727 85.45457H412.1818V76.72725H391.6727Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M316.1818 55.12726H362.6546V46.40001H316.1818Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M390.5818 55.12726H405.2V46.40001H390.5818Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M258.3636 34.61819H272.9818V25.89095H258.3636Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M371.8182 24.58182H418.2909V15.85457H371.8182Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M135.5272 126.0364H149.9272V117.3091H135.5272Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M100.6182 116.2182H115.0182V107.491H100.6182Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M21.41818 116.2182H67.67275V107.491H21.41818Z" fill="#ff7f00" fill-opacity=".549"/>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 217.74544)" font-size="44" font-family="AAAAAC+TimesNewRomanPS-BoldMT" font-weight="bold"><tspan y="-930" x="0 29.220402 51.004804 75.0772 87.093608 106.590007">Table:</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 228.21817)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301">| </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 11.22695 228.21817)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 25.782902 42.985807 62.450708 81.9156 91.6695 99.707408 109.4613 131.2272 142.1121 159.31502 178.77993 195.98284 209.16873 218.92263 226.96053 236.71442 262.4973 281.96223 301.42713 320.89204 331.77696 351.24186 360.99577 369.03367 378.78758 402.85447 420.05738 430.9423 441.8272 461.2921 471.04603 479.0839 488.8378 512.9047 532.3696 543.2545 560.4574 571.3423 581.0962 589.1341 598.888 626.9719 646.4368 665.90176 685.36666 700.26858 711.15347 722.0383 732.9232 752.3881">Rank | Player | County | Tally | Total | Opposition</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 238.03635)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 86.4981 99.668399 116.8557 136.34401 153.53131 164.4006 179.2869 189.0252 210.7755 230.26381 243.43412 262.9224 280.10969 289.84797 297.87028 307.60856 335.67686 352.86415 363.73344 391.80174 408.989 428.4773 438.21559 446.23789 455.97618">| 1 | Francis Forde | Galway | 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 111.1019 238.03635)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 115.3519 238.03635)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 85.917 95.6475 103.662 113.3925 139.191 158.6715 173.55 190.72949 210.20999 240.5715 270.933 290.4135">8 | 14 | Roscommon</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 247.85453)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 103.6854 120.8727 131.742 142.6113 152.34961 176.40091 195.88922 215.37754 226.24683 237.11612 252.00241 271.4907 281.22898 289.25129 298.98957 324.75688 341.94416 355.11445 365.98374 385.47203 413.5403 423.2786 431.3009 441.03919">| 2 | Niall English | Carlow | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 107.852 247.85453)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 112.1019 247.85453)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 85.917 95.6475 103.662 113.3925 150.07199 167.2515 182.13 193.0305 223.392 240.5715 257.751 268.65153">9 | 12 | Westmeath</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 257.45454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 110.0034 129.49172 140.36101 159.84932 169.58763 195.35494 208.52524 228.01355 247.50186 264.68916 277.85945 288.72874 305.91603 325.4043 335.14259 343.1649 352.90318 380.97148 398.15876 409.02806 437.09635 454.28364 473.7719 483.5102 491.5325 501.27079">| 3 | Kevin Broderick | Galway | 3</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 120.9769 257.45454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 125.2269 257.45454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 85.917 95.6475 103.662 113.3925 141.453 158.6325 186.69301 196.42351 224.48401 243.96451 257.127">1 | 10 | New York</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 267.2727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 110.0034 123.1737 142.662 152.40032 180.46862 191.3379 204.50821 223.99652 243.48484 253.22315 261.24546 270.98374 295.03504 305.90434 336.27363 353.4609 366.6312 377.5005 394.68778 414.17607 423.91435 431.93666 441.67494">| 3 | Gary Kirby | Limerick | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 107.9769 267.2727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 112.227 267.2727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 85.917 95.6475 103.662 113.3925 137.47499 148.37549 167.85599 187.33649 204.51599 217.6785 234.858 248.02051">7 | 10 | Tipperary</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 277.09089)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 110.0034 123.1737 142.662 152.40032 180.46862 191.3379 204.50821 223.99652 243.48484 253.22315 261.24546 270.98374 295.03504 305.90434 336.27363 353.4609 366.6312 377.5005 394.68778 414.17607 423.91435 431.93666 441.67494">| 3 | Gary Kirby | Limerick | 0</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 107.9769 277.09089)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 112.227 277.09089)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 38.961004 48.6915 56.706 66.4365 85.917 105.3975 115.128 123.1425 132.873 156.95549 167.85599 187.33649 206.81699 223.99649 237.159 254.3385 267.501">10 | 10 | Tipperary</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 286.9091)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095">| 6 | </tspan></text>
+<text fill="#00b050" xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 21.47695 286.9091)" font-size="39" font-family="AAAAAG+TimesNewRomanPS-BoldMT" font-weight="bold"><tspan y="-930" x="0 21.769803 38.937604 58.406404 80.17621 89.89501 126.56281 143.73062 169.51743 188.98622 210.75603 230.22483 251.99463 262.88343 273.77223">Se&#x00e1;n McLoughlin</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 88.10195 286.9091)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 54.408906 71.59621 86.482509 97.35181 127.72111 144.90842 162.09572 172.96501 192.45333 202.19164 210.21393 219.95224">| Westmeath | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 140.352 286.9091)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 144.6019 286.9091)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 119.7105 136.89 150.0525 160.953 180.4335">6 | 9 | Carlow</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 296.72727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 110.0034 129.49172 140.36101 159.84932 169.58763 203.97393 221.16123 234.33153 245.20082 256.07014 275.5584 285.2967 293.319 303.05729 337.4436 354.6309 371.81819 382.68748 402.17576 411.91404 419.93635 429.67463">| 6 | David Martin | Meath | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 105.3519 296.72727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 109.6019 296.72727)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 121.9725 135.13501 148.29752 165.47702 176.37752">6 | 9 | Offaly</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 306.5454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 92.8161 110.0034 123.1737 142.662 152.40032 180.46862 191.3379 204.50821 223.99652 243.48484 253.22315 261.24546 270.98374 295.03504 305.90434 336.27363 353.4609 366.6312 377.5005 394.68778 414.17607 423.91435 431.93666 441.67494">| 6 | Gary Kirby | Limerick | 0</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 107.9769 306.5454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 112.227 306.5454)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 121.9725 141.453 152.3535 165.516 176.4165">9 | 9 | Antrim</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 316.3636)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 79.634098 99.12239 118.61069 138.099 147.83731 173.60462 193.09293 206.26323 225.75154 242.93885 252.67716 260.69947 270.43775 296.20506 313.39234 326.56263 337.43193 356.9202 384.9885 394.72679 402.74909 412.48738">| 9 | John Byrne | Carlow | 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 101.6019 316.3636)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 105.8519 316.3636)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 130.59149 147.771 162.6495 173.55 203.9115 221.091 238.27051 249.171">2 | 8 | Westmeath</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 326.1818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 79.634098 99.12239 118.61069 138.099 147.83731 171.88861 185.05892 204.54723 224.03554 233.77385 241.79615 251.53446 279.60276 292.77305 305.94334 323.1306 333.9999 353.4882 363.22648 371.24879 380.98707">| 9 | John Troy | Offaly | 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 94.72695 326.1818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 98.97695 326.1818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 117.99451 135.17401 154.65451 165.55501">2 | 8 | Laois</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 335.7818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 79.634098 99.12239 118.61069 138.099 147.83731 171.88861 189.07592 206.26322 225.75153 245.23984 254.97815 263.00047 272.73875 296.79005 307.65934 327.1476 346.6359 363.82319 376.99348 394.18077 407.35105 426.83934 436.5776 444.5999 454.3382">| 9 | John Leahy | Tipperary | 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 110.7269 335.7818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 114.9769 335.7818)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 121.9725 139.15201 152.31452 165.47702">2 | 8 | Kerry</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 345.6)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 88.799098 108.28739 138.6567 148.395 176.4633 193.6506 224.0199 243.50821 258.39454 275.58183 295.0701 304.80839 312.8307 322.56898 359.21726 376.40455 395.89283 409.0631 428.5514 441.72169 461.20997 470.94825 478.97056 488.70884">| 9 | Tom Dempsey | Wexford | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 118.227 345.6)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 122.4769 345.6)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 121.9725 135.13501 148.29752 165.47702 176.37752">5 | 8 | Offaly</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 355.4182)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 86.4981 103.6854 123.1737 134.043 143.78131 165.5316 176.4009 195.8892 215.37752 234.86583 244.60414 252.62644 262.36473 299.013 316.2003 327.06959 344.25688 357.42716 370.59745 390.08573 403.256 422.7443 432.48258 440.50489 450.24317">| 9 | Paul Flynn | Waterford | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 109.8519 355.4182)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 114.102 355.4182)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 117.99451 128.895 148.3755 167.856 185.03549 198.198 215.3775 228.54001">5 | 8 | Tipperary</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 365.2364)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 8.022301 17.760601 37.2489 46.987199 55.0095 64.747798 86.4981 99.668399 116.8557 136.34401 153.53131 164.4006 179.2869 189.0252 210.7755 230.26381 243.43412 262.9224 280.10969 289.84797 297.87028 307.60856 335.67686 352.86415 363.73344 391.80174 408.989 428.4773 438.21559 446.23789 455.97618">| 9 | Francis Forde | Galway | 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 111.1019 365.2364)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 115.3519 365.2364)" font-size="39" font-family="AAAAAE+TimesNewRomanPSMT"><tspan y="-930" x="0 19.480502 29.211003 37.225503 46.956 66.4365 76.167 84.1815 93.912 121.9725 139.15201 167.21251 176.94301 205.00351 224.48401">5 | 8 | New Yor</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 167.2269 365.2364)" font-size="37" font-family="AAAAAI+TimesNewRomanPSMT"><tspan y="-930" x="0">k</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 387.7091)" font-size="44" font-family="AAAAAC+TimesNewRomanPS-BoldMT" font-weight="bold"><tspan y="-930" x="0 33.8008 57.8776 77.37841 94.54721 108.85601 120.876819 142.66562 166.74243 181.05123">Question: </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 7.351952 397.74543)" font-size="37" font-family="AAAAAI+TimesNewRomanPSMT"><tspan y="-930" x="0 26.355103 44.681203 60.713308 71.010417 80.160518 98.48661 108.783718 127.10981 143.1419 155.17801 164.32811 182.6542 192.9513 208.9834 227.3095 243.3416 255.3777 264.5278 282.8539 298.88603 317.21214 326.36225 336.65934 354.98545 371.01756 380.16767 394.49775 410.52986 439.17893 455.21104 464.36116 474.65824 490.69035 500.98744 511.28453 529.6106 538.7607 554.7928 569.1229 578.273 596.5991 612.6312 630.95736 641.25448 659.58059 668.73068 697.37979 713.41189 725.44796 735.74508 746.0422 764.3683">what other player had the same tally as david martin?</tspan></text>
+<path transform="matrix(1,0,0,-1,0,203)" d="M487.4546 176.2182H501.8546V167.491H487.4546Z" fill="#ff7f00" fill-opacity=".549"/>
+<g clip-path="url(#clip_2)">
+<g clip-path="url(#clip_3)">
+<g mask="url(#mask_4)">
+<g transform="matrix(.20454595,0,0,.20454595,495.7454,182.34543)">
+<image id="image_6" width="64" height="64" xlink:href="data:image/png;base64,
+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
+x816tVWbfAAAAABJRU5ErkJggg=="/>
+</g>
+</g>
+</g>
+</g>
+<g clip-path="url(#clip_7)">
+<g clip-path="url(#clip_8)">
+<g mask="url(#mask_9)">
+<g transform="matrix(.20454595,0,0,.20454484,495.7454,73.69093)">
+<image id="image_11" width="64" height="64" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAC10lEQVR4nN1a2bKDIAzln3zsdKFaZ3zo/3+OFw1GXIBgIpXrMHda
+byHnZCMsSsk9/evVN03/fg8ftF4389L8a/yvoFCBZwBX1wMyAGo+mK++N/jSfP0t
+k75tLTjTjOJdxOEGfEwXtEzb5oUOoFGvFNC+BkyyudasaZDKgb6yCQ54Ho21JPHm
+DC4N/fu1imc6DNGpQNb3K4QeciLGXJ4G4vjuZC2bQfG7phiDm4E+m9uE3en5PIQe
+E+Wv0Lt2aJoy0R/zpSHn6OxRG24AhpiXLofe4UBAb5ImxXOwBOAjw1KKIjTsSFbx
+0bHcH/BrIay9iXIDAY2WipjS6Ox2s+bixDpE5+MxD0WR7nMkM9CiXg/owKl+LZ8D
+HDa5ZajPo0MBwpHzhkBUASByM70f4eDJjCQOo7gN+vvd8gv39BQnaRyCeR39JGQE
+vSmT4t3QfD4OxLkvjB6XSuFBVpHQ47qWqbyoHZjd3XHM37mnhPvGQUihdwacOsN2
+yKkcxNG7AYledRYHcfTayUV91w3fDxQFlHB0toMiP0uVDoC7TrHqNopqxXW/tMOk
+g/M4eEoXAfRjdyWwcElfvAqgn+SSZwA5DmLLvZmASFlP4yCje3QhMx8LDLTisFsq
+Anpm+b3X/geB4l2o7CAuPo3ST1bS0WeZyDi7I5coJUov5lTp5bQqd0GDy+JSl5Sf
+z9S59EW9Kn1bReFJXrkbW4oSynm2FqPO7NNj8Zu7JPPpC2yvB4quYVYmBiJ8IB7n
+hIdKOuAw8GD29XK4+BET5eye5Ej5G/GQT135mLWqSARU6QfdloPJqjX7QpYU+tSr
+BpYD5IcfcqgZlz0sh/fygt71PWffDpQpRrZJXXiyHKpqNmget9EpOYdKQxd76W/m
+cOq1y8l5zkI/08BlB9+paufiKz9e02jwrx5j9Z756vGaiZ5uprv4XD7LDaL5zXm+
+fuwZqnEwhcsHOejIqvrY8wdTif4JyM3C1gAAAABJRU5ErkJggg=="/>
+</g>
+</g>
+</g>
+</g>
+<path transform="matrix(1,0,0,-1,0,203)" d="M201.6364 125.3818H247.8909V116.6546H201.6364Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M352.4 34.61819H368.7636V25.89095H352.4Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M237.4182 34.83639H256.4V26.10907H237.4182Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M399.3091 176H418.2909V167.491H399.3091Z" fill="#ff7f00" fill-opacity=".549"/>
+<path transform="matrix(1,0,0,-1,0,203)" d="M419.8182 176H434.4364V167.2728H419.8182Z" fill="#ff7f00" fill-opacity=".549"/>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 305.8909)" font-size="44" font-family="TeXGyreTermes" font-weight="bold" font-style="italic"><tspan y="-930" x="0 33.8008 50.969606 75.04641">HInT</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 223.8648 305.8909)" font-size="44" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 14.3220009 31.504002 42.394006 61.864007 81.33401 98.516017 122.56202 144.32003 168.36603 185.54802 205.01804">&#x2019;s response:</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299 19.476599">...</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 208.1148 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 43.524 62.984998 82.44599 93.326999 112.787998 132.249 141.999 159.198 170.079 179.829 190.70999 210.17099 227.37 237.12 248.00099 265.19999 284.66099 295.54197 312.74095 322.49095 332.24095 360.32093 377.5199 396.9809 407.86189 427.32289 437.07289 471.4319 488.63087 501.81288 512.69387 523.5748 543.0358 552.7858 563.6668 578.5648 588.3148 599.1958 610.0768 624.9748 635.8558 653.05477 672.51577 682.26577 701.72677 721.18777 740.64877 757.8477 771.0297 780.7797 806.5587 823.7577 843.2187 862.6797 872.4297">Looking at the table, David Martin is listed under Rank 6</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 402.7398 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 406.9898 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 38.945405 53.835607 63.577806 76.75201 96.24421 124.316417 134.05863 148.94882 168.44103 187.93323 216.00543 230.89563 240.63784 257.82905 267.57124 291.62644 308.81764 319.69084 330.56404 350.0562 359.7984 379.2906 392.4648 402.20704">His row shows a Tally of 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 498.9898 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 503.2398 316.5818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502">6.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 326.8364)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2026;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 210.2398 326.8364)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 47.564405 75.636608 85.37881 98.55301 108.29521 127.787418 144.9786 162.1698 181.662 191.4042 202.2774 221.7696 231.51181 248.703 268.1952 285.38639 302.57759 322.06977 331.81196 342.68516 355.85939 365.60157 382.79277 402.28498 421.77717 431.51936 451.01155 461.88475 481.37696 498.56816 511.74238 521.48458 540.97677 551.85 569.0412 588.5334 605.7246 618.8988 628.641 648.1332 665.3244 680.2146 689.9568 700.83 720.3222 737.5134 747.2556 762.1458 779.33706 809.71029 826.9015 836.6437 860.6989 877.89016 888.76339 899.6366 919.1288 928.871 946.0622 965.5544 976.4276 989.6018 1009.094">Now I need to check if any other player has the same Tally entry.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 337.09089)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 41.261999 52.142999 61.892999 92.274 109.47301 119.22301 138.684 158.145 167.895 178.776 198.237 211.419 230.88 250.341 269.802 289.263 299.013 316.21199 333.41096 350.60993 370.07093 379.82093 393.00294 412.46394 440.5439 450.2939 460.0439 481.8059 492.6869 509.88587 523.0679 533.94888 544.82986 564.29086 583.75186 593.50186 606.68386 619.86587 639.32687 669.7078 679.4578 690.3388 709.7998 726.9988 736.7488 747.62979 767.09078 786.55178 797.43276">Let me go through each row. Starting from the top: </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 377.8648 337.09089)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 60.723005 73.885509 91.06501 110.54551 127.72501 138.62552 153.50403 163.23453 185.01604 204.49654 217.65904 237.13954 254.31903 265.21955 274.95005">1. Francis Forde: 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 442.1148 337.09089)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 446.3648 337.09089)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 86.4825 97.383 107.1135 118.01401 137.4945 154.67401 164.40451 179.28302 196.46253 226.82404 244.00354">8. Not the same.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 347.12733)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 77.902507 95.08201 105.98251 116.88302 126.61352 150.69602 170.17652 189.65702 200.55751 211.45801 226.33652 245.81702 256.71754 266.44804">2. Niall English: 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 264.1148 347.12733)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 268.3648 347.12733)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 86.4825 96.213 105.9435 125.423999 135.1545 144.885 172.9455 190.125 209.6055 220.506 239.9865 249.717 275.5155 288.678 308.1585 327.639 344.8185 357.98103 368.88154 386.06105 405.54154 416.44206 426.17256">9. No. 3. Kevin Broderick: 3</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 365.6148 347.12733)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 369.8648 347.12733)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 86.4825 105.963 123.1425">1. Nope.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 357.3818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 38.9571 67.0332 84.2283 103.7244 114.60151 124.34761 134.09372 144.97083 164.46692 183.96302 203.4591 214.33621 233.8323 253.3284 263.0745 280.2696 291.1467 300.8928 326.66789 343.86299 363.35908 382.85517 392.60127 412.09736 421.84346 439.03855 458.53465 475.72975 486.60685 506.10295 515.84909 525.59518 553.67129 570.86636 590.3624 601.2395 620.7356 630.4817 664.8368 682.03189 695.20999 706.08706 716.9641 736.4602 743.3203 758.2144 767.9605 785.15567 804.65176 815.5288 828.7069 848.203 859.0801 868.8262">&#x2026;Next, looking at Rank 6 again. David Martin's entry: 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 395.4898 357.3818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 399.7398 357.3818)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 86.4825 114.543 124.2735 141.453 160.9335 178.113 195.29251 214.77301 224.50351 243.98401 254.8845 274.36503 291.54454 304.70704 319.5855 329.316 340.21653 359.69703 369.42753 395.226 412.40553 431.88603 451.36653 461.09703 480.5775">6. Now check others in Rank 6.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 367.6364)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 43.524 60.722997 70.47299 89.93399 100.814998 120.27599 137.47499 150.65699 160.40699 171.28798 199.36798 218.82898 228.57898 248.03998 258.92097 276.11994 295.58094 312.7799 325.9619 340.85993 350.60993 361.4909 380.9519 390.7019 416.48094 433.6799 453.1409 472.6019 482.3519 501.8129 511.5629 528.7619 541.9439 559.1429 568.8929 590.6549 607.8539 625.05288 644.51388 654.26388 688.62289 705.82186 729.8848 749.3458 768.8068 788.2678 807.7288 818.6098 829.4908 848.9518 858.7018 875.90078 895.36178 914.82278 924.57278 952.6528 969.85177 989.31277 1000.1937 1019.6547 1029.4047 1063.7637 1080.9628 1094.1448 1105.0259 1115.907 1135.368 1145.118">The other two players in Rank 6 are Se&#x00e1;n McLoughlin and David Martin. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 377.8909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 25.782902 45.247804 56.1327 75.5976 85.3515 104.8164 122.019298 141.4842 158.68712 168.44101 192.50792 209.71083 220.59574 231.48064 250.94554 260.69947">Both have Tally 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 262.8648 377.8909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 267.1148 377.8909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502">6.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 275.6148 377.8909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 21.769803">So</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 286.7398 377.8909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 10.884901 30.349802 47.552705 67.0176 76.7715 96.2364 113.4393 132.9042 150.1071 159.861 170.7459 190.21079 207.41368 217.16757 232.06948 249.27237 279.6183 296.82118 306.57508 317.45997 334.66285 345.54774 356.43263 375.89753">they have the same tally.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 387.9273)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 36.667806 53.874608 64.763408 75.65221 85.41 95.1678 114.6366 134.10541 144.99422 154.75203 165.64084 185.10965 202.31645 212.07427 231.54306 251.01187 268.2187 283.12449 294.01329 304.90208 324.37089 343.8397 353.5975 368.5033 385.71009 405.1789 420.0847 429.8425 445.8793 465.3481 476.2369 495.70573 512.91256 526.10238 535.86019 555.329 566.2178 583.42459 602.8934 620.10018 633.29 649.3268 659.0846 678.5534 695.7602 710.666 721.5548 741.0236 758.2304 773.1362 782.89407 810.9819 828.18869 847.6575 858.54629 878.0151 887.7729 922.1397 939.3465 952.5363 963.4251 974.3139 993.7827 1003.5405">Wait, but the question says "other player" besides David Martin. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7398 397.9636)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 21.769803 41.2386 50.9574 61.8462 81.315 98.4828 108.20161 125.36941 144.8382 159.744 187.8318 204.99962 218.18943 227.90822 255.996 275.46479 294.9336 305.8224 325.2912 335.01 354.47883 371.6466">So the answer would be </tspan></text>
+<text fill="#0070c0" xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 284.9898 397.9636)" font-size="39" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 21.769803 38.937604 58.406404 80.17621 89.89501 126.56281 143.73062 169.51743 188.98622 210.75603 230.22483 251.99463 262.88343 273.77223">Se&#x00e1;n McLoughlin</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 349.4898 397.9636)" font-size="39" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 9.738299">. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 215.56362)" font-size="44" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 33.8008 65.31361 84.814418 108.89121 130.68001 141.55681">Qwen2.5</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 237.3649 215.56362)" font-size="44" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0">-</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 240.4899 215.56362)" font-size="44" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 21.7712 50.978406 61.881605 76.216808 100.276 126.6232 155.8304 170.1656 184.50081 201.69602 212.59922 232.08242 251.56562 268.76084 292.82005 314.59126 338.65046 355.84568 375.32887">3B (SFT)&#x2019;s response:</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 226.25453)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2026;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 210.2399 226.25453)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 43.524 62.984998 82.44599 93.326999 112.787998 132.249 141.999 159.198 170.079 179.829 190.70999 210.17099 227.37 237.12 248.00099 265.19999 284.66099 295.54197 312.74095 322.49095 332.24095 345.42295 352.28694 363.1679 374.0489 383.7989 398.6969 415.89588 433.09486 452.55586 462.30586 473.18684 492.64784 509.8468 519.5968 541.3588 552.2398 569.4388 588.8998 606.09878 619.28079 629.03079 646.22976 665.69076 676.5717 696.0327 726.4137 745.8747 755.6247 768.8067 788.2677 801.4497 811.1997 839.2797 856.4787 875.9397 886.8207 906.2817 916.0317 950.3907 967.58969 980.77169 991.65267 1002.5336 1021.9946 1031.7446">Looking at the table, I'll scan the Player column for David Martin. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 45.263406 58.437604 75.6288 85.371 104.863208 122.054409 131.7966 142.6698 157.56 168.4332 178.1754 203.9466 221.13779 240.62999 260.1222 269.86439">Here he is: Rank 6</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 264.8649 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299">, </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 269.1149 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299 19.476599 41.265905 52.13521 69.32252 88.81082 105.99813 119.168437 128.90674 156.97504 174.16234 193.65064 204.51995 224.00824 233.74654 268.1328 285.3201 298.49043 309.3597 320.229 339.71733 349.45564 359.19395 384.96125 404.44956 423.93788 443.42619 454.29548 473.78379 483.5221 517.9084 535.0957 552.283 563.15237 582.6406 592.3789 602.1172 626.1685 643.35586 654.22518 665.0945 684.58279 694.32107">, Player David Martin, County Meath, Tally 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 424.8649 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 429.1149 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415">6,  </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 439.7399 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 21.769803">So</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 450.8649 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 30.381 45.259504 54.99 65.8905 83.07001 93.97051 104.87102 124.35152 134.08202 144.98252 159.86103 169.59152">his tally is 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 492.1149 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 496.3649 236.50908)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502">6.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 246.76361)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 47.564405 75.636608 85.37881 98.55301 108.29521 127.787418 144.9786 162.1698 181.662 191.4042 202.2774 221.7696 231.51181 248.703 268.1952 285.38639 302.57759 322.06977 331.81196 342.68516 362.17738 379.36857 389.11079 408.60298 419.47618 438.96839 456.15959 469.3338 479.076 498.56819 509.44139 526.63259 546.12478 563.316 576.4902 591.3804 601.12258 611.9958 631.488 641.23019 656.12039 673.3116 690.5028 700.245 728.3172 747.8094 767.3016 777.04379 794.235 805.1082 819.9984 837.18966 846.9318 866.424 883.61526 898.50546 908.2476">Now I need to check the other players to see who else has 1</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 404.1149 246.76361)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 408.3649 246.76361)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 40.111505 59.592004 69.3225 80.22301 99.70351 116.88301 126.61351 150.696 167.87549 178.77599 189.67649 209.15699 218.88748 236.06699 255.54749 266.448 285.9285 316.29 335.7705">6 in the Tally column.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 256.8)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 41.261999 52.142999 61.892999 92.274 109.47301 119.22301 138.684 158.145 167.895 178.776 198.237 211.419 230.88 250.341 269.802 289.263 299.013 316.21199 333.41096 350.60993 370.07093 379.82093 393.00294 412.46394 440.5439 450.2939">Let me go through each row. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 302.1149 256.8)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 25.782902 42.985807 62.450708 81.9156 91.6695 111.1344 120.8883 131.7732 146.6751 156.42899 178.19489 191.38079 208.5837 228.0486 245.25151 256.1364 271.0383 280.7922 302.5581 322.023 335.2089 354.6738 371.8767 381.6306 409.71455 420.59947 431.48439 450.94929 460.7032">Rank 1 is Francis Forde with 2</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 406.8649 256.8)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2013;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 411.1149 256.8)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 19.480502 29.211003 38.9415 67.002 86.4825 97.383 107.1135 118.01401 137.4945 154.67401 164.40451 179.28302 196.46253 226.82404 244.00354 253.73404">8. Not the same. </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 468.6149 256.8)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2026;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 267.05455)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299 19.476599 29.214898 53.266199 72.7545 89.94181 109.430118">...Then </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 227.7399 267.05455)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 25.782902 42.985807 62.450708 81.9156 91.6695 111.1344 120.8883 140.35321 157.55612 172.45803 182.21192 193.09682 212.56172 225.74762 242.95053 260.15345 269.90736 289.37226 300.25718 317.46009 336.925 354.1279 367.31379 382.21568">Rank 3 has three players:</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 313.4899 267.05455)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">&#x2026;</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 321.9899 267.05455)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 45.263406 64.75561 75.62881 85.37101 95.11321 120.884418 138.07563 157.56783 177.06003 186.80223 206.29444 217.16764 226.90984 254.98204 272.17326 291.66548 302.53868 322.03089 331.77308 366.16328 383.35447 396.5287 407.4019 418.2751 437.76728 447.50947 458.38267 473.27287 483.01509 502.50727 521.99948 539.1907 548.93289 568.42507 581.59927 591.34146 602.21469 621.70687 638.8981 669.2713 679.0135 688.7557 705.9469 716.8201 729.9943 747.18557 764.3768 783.86898 803.36117">Next, Rank 6: David Martin is one of them, already </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 277.30909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 17.187302 36.675603 53.862905 71.0502 90.5385 107.7258 127.214099 136.9524 146.6907 170.742 190.23032 207.41762 226.90592 236.64423 262.41154 279.59883 299.08714 318.57545 328.31376 347.80207 357.54039 377.0287 394.216 409.1023 418.8406 433.7269 450.91419 470.4025 487.58979 500.7601 517.9474 528.8167 538.555 558.0433 568.9126 586.0999 605.5882 622.7755 635.9458 650.8321">checked. Then Rank 9 has several players.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 347.9899 277.30909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 38.9571">&#x2026; </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 358.6149 277.30909)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 24.063 43.524 60.722997 70.47299 89.93399 100.814998 120.27599 137.47499 150.65699 160.40699 179.86798 190.74898 207.94799 227.40898 244.60799 257.78999 272.688 282.438 293.31898 312.77998 322.52998 348.309 365.50798 384.96897 404.42997 414.17997 433.64097 443.39097 460.58995 473.77195 490.97093">The other players in Rank 6 are </tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 201.7399 287.34547)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 28.072203 45.263406 64.75561 75.62881 95.12101 104.86321 139.2534 156.44461 169.6188 180.492 191.3652 210.8574 220.59961 237.7908 257.28303 276.7752 286.5174 297.3906 316.8828 334.074 343.81623 363.3084 374.1816 393.67384 410.86503 424.03926 438.92945 448.67164 465.86283 476.73603 486.4782 499.65245 516.8436 536.3358 555.828 565.5702 585.0624">David Martin and the others at rank 9.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 331.4899 287.34547)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0">.</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 333.6149 287.34547)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299 19.476599">.  </tspan></text>
+<text fill="#0070c0" xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 339.9899 287.34547)" font-size="39" font-family="TeXGyreTermes" font-weight="bold"><tspan y="-930" x="0 21.769803 41.2386 50.9574 72.7272 92.19601 101.91481 134.56562 154.03441 167.22422 184.39202 206.16182 223.32964 238.23545 247.95424 261.14405 282.91386 300.08164 317.24943">So no matches there</tspan></text>
+<text xml:space="preserve" transform="matrix(.2181818 0 -0 .2181818 412.9899 287.34547)" font-size="39" font-family="TeXGyreTermes"><tspan y="-930" x="0 9.738299">. </tspan></text>
+</g>
+</svg>
