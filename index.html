@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HInT: Hypergraph Infusion at the Structural Layers Improves Table Understanding</title>
+  <meta name="description"
+        content="[ICML 2026] HInT injects hypergraph-derived structural features into the structural layers of decoder-only LLMs for table reasoning.">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="robots" content="all">
+
+  <meta content="HInT" property="og:title">
+  <meta content="Hypergraph Infusion at the Structural Layers Improves Table Understanding" property="og:description">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="theme-color" content="#C1E9F0">
+
+  <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/main_free.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="clarity/clarity.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+          scale: 95,
+          fonts: ["Gyre-Pagella"],
+          imageFont: null,
+          undefinedFamily: "'Arial Unicode MS', cmbright"
+        },
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+      });
+  </script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+<!-- Title Page -->
+<div class="container blog" id="first-content" style="background-color: #F6F6F6;">
+  <div class="blog-title no-cover">
+    <div class="blog-intro">
+      <div>
+        <h1 class="title"><b>HInT</b>: Hypergraph Infusion at the Structural Layers <br> Improves Table Understanding</h1>
+        <p class="author">
+          <a href="#">Wonjin Lee</a><sup>1</sup>,
+          <a href="#">Soomi Jeong</a><sup>1</sup>,
+          <a href="#">Kwang In Kim</a><sup>1</sup>
+        </p>
+        <p class="author" style="padding-top: 0px;">
+          <sup>1</sup>POSTECH
+        </p>
+
+        <p style="text-align: left !important; margin: 0; text-transform: uppercase; font-weight: 700; font-size: 85%; color: #0f6674">
+          Accepted to ICML 2026
+        </p>
+
+        <p class="abstract" style="text-align: justify; padding-top: 20px;">
+          Decoder-only large language models (LLMs) struggle with table reasoning because tables must be serialized,
+          which can obscure row- and column-level structure. Prior graph and hypergraph approaches encode structure with
+          an external encoder, but their gains are often inconsistent under autoregressive decoding. We analyze how
+          tabular structure is represented inside decoder-only LLMs and find that row and column relations are
+          concentrated in a small subset of layers and attention heads. Based on this observation, we propose
+          <b>HInT</b>, a method that injects hypergraph-derived structural features directly into these <em>structural
+          layers</em>. HInT constructs a table hypergraph over cells and headers, performs lightweight message passing,
+          and fuses the resulting features with token hidden states through token-level gated fusion, while preserving
+          standard autoregressive computation. Experiments across diverse table reasoning tasks show consistent
+          improvements over text-only baselines and prior (hyper)graph-based methods.
+        </p>
+
+        <!-- Paper / Code / Poster buttons. Replace the empty href="#" links with real URLs later. -->
+        <div class="info" style="padding-top: 20px;">
+          <div>
+            <a href="#" class="button icon"
+               style="background-color: #0F66741A"> Paper <i class="fa-solid fa-book-open"></i></a> &nbsp;&nbsp;
+            <a href="#" class="button icon"
+               style="background-color: #0F66741A"> Code <i class="fa-solid fa-code"></i></a> &nbsp;&nbsp;
+            <a href="#" class="button icon"
+               style="background-color: #0F66741A"> Poster <i class="fa-solid fa-file-image"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Teaser / Method Overview Figure (paper Figure 3) -->
+<div class="container blog main first" style="margin-top:60px; padding-top: 8px;">
+  <img src="assets/figures/teaser_method_overview.png" alt="HInT method overview" style="width: 100%; height: auto;">
+  <p class="caption">
+    <b>Method overview (Figure 3 in the paper).</b>
+    (a) Text-based methods process tables after linearization into token sequences.
+    (b) Graph- and hypergraph-based methods first construct a graph or hypergraph from the table, encode it with a
+    dedicated encoder, and pass the resulting embeddings to the LLM.
+    (c) <b>HInT</b> injects hypergraph-based structural features directly into selected <em>structural layers</em> of
+    the LLM, where they are fused with hidden states to enable structure-aware reasoning.
+  </p>
+</div>
+
+<!-- Introduction -->
+<div class="container blog main first" id="blog-intro" style="text-align: justify">
+  <h1>Introduction</h1>
+  <p class="text">
+    Decoder-only LLMs reason over tables by reading them as serialized token sequences. This linearization obscures
+    row- and column-level relations: tokens that are adjacent in a row or column may be far apart in the input
+    sequence, so structure-sensitive reasoning becomes brittle. Recent work tries to compensate by introducing external
+    graph or hypergraph encoders that inject structural features <em>before</em> LLM decoding.
+  </p>
+  <p class="text">
+    We find that this is not enough. On WikiTQ, HiTab, and TabFact, (hyper)graph-augmented LLMs do not consistently
+    outperform text-only baselines &mdash; in several cases, they match or underperform supervised fine-tuning on the
+    same backbone. Our analysis suggests that the bottleneck is not just in <em>extracting</em> table structure, but in
+    <em>integrating</em> it into the autoregressive computation inside the LLM.
+  </p>
+</div>
+
+<!-- Motivation figure (paper Figure 1) -->
+<div class="container blog main gray">
+  <img src="assets/figures/figure1_motivation.png" alt="Text vs graph-augmented LLMs">
+  <p class="caption">
+    <b>Figure 1 in the paper.</b> Comparison of text-only and graph-augmented LLMs on the WikiTQ, HiTab, and TabFact
+    datasets. Despite explicitly modeling table structure, graph-augmented methods do not consistently outperform the
+    text-only baselines.
+  </p>
+</div>
+
+<!-- Probing / Where is structure encoded -->
+<div class="container blog main first" id="blog-probing" style="text-align: justify">
+  <h1>Where is table structure encoded inside the LLM?</h1>
+  <p class="text">
+    We define two binary structural masks &mdash; a row mask $\mathbf{M}^{\text{R}}$ and a column mask
+    $\mathbf{M}^{\text{C}}$ &mdash; that mark which token pairs belong to the same table row or column. For each
+    instance, we then fit each mask as a sparse linear combination of attention maps across all layers and heads with
+    a LASSO penalty:
+  </p>
+  <p class="text" style="text-align: center;">
+    $\mathcal{C}(\mathbf{w}) = \left\lVert \mathbf{m}^{\text{R}} - \sum_{l,h} w_l^h \, \mathbf{a}_l^h \right\rVert_2^2 + \lambda \lVert \mathbf{w} \rVert_1$.
+  </p>
+  <p class="text">
+    Heads with large coefficients are the ones whose attention patterns best align with row- or column-wise structure.
+    Visualizing the top-ranked heads recovers clear row-wise and column-wise patterns even though the input is a
+    1D token stream.
+  </p>
+</div>
+
+<div class="container blog main gray">
+  <img src="assets/figures/figure2_probing.png" alt="Structural masks and attention maps from probed heads">
+  <p class="caption">
+    <b>Figure 2 in the paper.</b> Left: row and column structural masks $\mathbf{M}^{\text{R}}$ (top) and
+    $\mathbf{M}^{\text{C}}$ (bottom). Right: attention maps from heads selected by our structural probing, showing
+    row-wise and column-wise patterns that best match the corresponding masks.
+  </p>
+</div>
+
+<div class="container blog main">
+  <p class="text" style="text-align: justify;">
+    These heads are not just visually suggestive &mdash; they are <em>functionally</em> critical. Ablating the top-40
+    structurally aligned heads at inference time causes a much larger drop in WikiTQ accuracy than ablating the same
+    number of randomly chosen heads (12.73% vs. 32.29% EM, compared to 47.51% with all heads). Aggregating these heads
+    across instances shows that they concentrate in a small, non-uniform subset of transformer layers, which we
+    designate as the <em>structural layers</em> $\mathcal{L}^{\star}$.
+  </p>
+  <div>
+    <figure style="display: flex; gap: 10px; align-items: flex-end;">
+      <figure style="text-align: center; flex: 1;">
+        <img src="assets/figures/table1_head_ablation.png" style="max-width: 100%; height: auto;">
+        <p class="caption">Table 1: Ablating structural vs. random heads on WikiTQ.</p>
+      </figure>
+      <figure style="text-align: center; flex: 1.3;">
+        <img src="assets/figures/figure6_layer_frequency.png" style="max-width: 100%; height: auto;">
+        <p class="caption">Figure 6: Per-layer frequency of structurally aligned heads &mdash; row- and column-related structure is concentrated in a small subset of layers.</p>
+      </figure>
+    </figure>
+  </div>
+</div>
+
+<!-- Method -->
+<div class="container blog main first" id="blog-method" style="text-align: justify;">
+  <h1>Method: HInT</h1>
+  <p class="text">
+    HInT builds a table hypergraph $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ in which every cell is a node and rows,
+    columns, and hierarchical headers are hyperedges. At each structural layer $l \in \mathcal{L}^{\star}$, we:
+  </p>
+  <ol class="text">
+    <li>pool token hidden states into per-cell node features $\mathbf{v}_u$ and per-header hyperedge features
+      $\mathbf{e}_v$;</li>
+    <li>run a lightweight HyperTrans message-passing block over $\mathcal{G}$ to obtain structure-enhanced features
+      $(\widetilde{\mathbf{V}}, \widetilde{\mathbf{E}}) = \mathrm{HyperTrans}(\mathbf{V}, \mathbf{E})$;</li>
+    <li>fuse the resulting structural feature $\widetilde{\mathbf{g}}_i$ back into each token via a sigmoid gate
+      $\alpha_i = \sigma(\mathbf{w}^{\top}[\mathbf{u}_i \| \widetilde{\mathbf{g}}_i])$ and a convex combination
+      $\widetilde{\mathbf{u}}_i = (1-\alpha_i)\,\mathbf{u}_i + \alpha_i\,\widetilde{\mathbf{g}}_i$.</li>
+  </ol>
+  <p class="text">
+    All other layers are left untouched, so the standard autoregressive computation is preserved. Only the HyperTrans
+    block, the gate $\mathbf{w}$, and (optionally) the backbone are trained.
+  </p>
+</div>
+
+<div class="container blog main gray">
+  <img src="assets/figures/figure4_hypergraph_construction.png" alt="Hypergraph construction from a table">
+  <p class="caption">
+    <b>Figure 4 in the paper.</b> Example hypergraph construction. Each table cell is a node. Row-wise (orange) and
+    column-wise (blue) hyperedges group cells that share a row or column, while hierarchical headers (green) induce
+    higher-level hyperedges (e.g., <code>Price ($)</code> spanning <code>Hot</code> and <code>Iced</code>).
+  </p>
+</div>
+
+<!-- Results -->
+<div class="container blog main first">
+  <h1>Results</h1>
+  <p class="text" style="text-align: justify;">
+    Using Qwen2.5-3B-Instruct as the backbone, HInT identifies 12 structural layers
+    $\mathcal{L}^{\star} = \{3,4,5,6,8,9,10,12,15,17,24,30\}$. With this single layer set fixed across all benchmarks,
+    HInT yields consistent gains across <b>table QA</b> (WikiTQ, HiTab), <b>fact verification</b> (TabFact, FEVEROUS),
+    <b>table&ndash;text QA</b> (HybridQA, FinQA), and <b>table&ndash;to&ndash;text generation</b> (FeTaQA, ToTTo), and
+    outperforms both text-only and prior (hyper)graph-based baselines (HeGTa, LLaSA, TaMo).
+  </p>
+</div>
+
+<div class="container blog main gray">
+  <img src="assets/figures/table2_main_results.png" alt="Main results across 8 benchmarks">
+  <p class="caption">
+    <b>Table 2 in the paper.</b> Results on eight table-reasoning benchmarks across four task categories. HInT is the
+    best or second-best method on every benchmark.
+  </p>
+</div>
+
+<div class="container blog main">
+  <h2>Qualitative example</h2>
+  <p class="text" style="text-align: justify;">
+    On a representative WikiTQ instance that requires multi-step row-wise reasoning (find another player with the same
+    tally as <code>David Martin</code>), the text-based baseline correctly retrieves David Martin's tally
+    (<code>1&ndash;6</code>) but fails to propagate the row-wise constraint to the other player at the same rank. HInT
+    preserves the row-level dependency and correctly answers <code>Se&aacute;n McLoughlin</code>.
+  </p>
+</div>
+
+<div class="container blog main gray">
+  <img src="assets/figures/figure5_qualitative.png" alt="Qualitative reasoning comparison">
+  <p class="caption">
+    <b>Figure 5 in the paper.</b> Reasoning comparison on a WikiTQ test example. Top-right: Qwen2.5-3B (SFT) finds the
+    correct tally but fails to propagate the row-wise constraint, yielding an incorrect answer. Bottom-right: HInT
+    preserves the row-level dependency and answers correctly.
+  </p>
+</div>
+
+<div class="container blog main">
+  <h2>Where to inject matters</h2>
+  <p class="text" style="text-align: justify;">
+    Injecting hypergraph features into the identified structural layers outperforms (i) a capacity-matched Qwen2.5-3.3B
+    baseline, (ii) injecting into <em>randomly</em> selected layers, and (iii) injecting into <em>all</em> layers. This
+    confirms that the gains come from <em>where</em> structure is added, not from extra parameters or denser
+    intervention.
+  </p>
+  <p class="text" style="text-align: justify;">
+    The same recipe also transfers to a different backbone family: with Llama-3.1-8B-Instruct, the layer-frequency
+    distribution stays sparse, and HInT improves over both the SFT and TaMo variants of the same backbone.
+  </p>
+</div>
+
+<!-- Conclusion -->
+<div class="container blog main">
+  <h1>Conclusion</h1>
+  <p class="text" style="text-align: justify;">
+    Tabular structure is already encoded inside decoder-only LLMs, but only in a small subset of layers and attention
+    heads. HInT exploits this by injecting hypergraph-derived structural features directly into those structural
+    layers via lightweight message passing and token-level gated fusion, without changing the underlying autoregressive
+    computation. The result is consistent improvements over strong text-only and encoder-based baselines across diverse
+    table reasoning tasks. The same principle &mdash; injecting structured relational information into internally
+    aligned layers &mdash; is not inherently limited to tables and is a natural direction for other structured inputs
+    such as knowledge graphs or program representations.
+  </p>
+</div>
+
+<!-- BibTeX -->
+<div class="container blog main">
+  <h1>Citation</h1>
+  <p class="text">If you find our work useful, please cite it as:</p>
+  <pre><code class="plaintext">@inproceedings{lee2026hint,
+    title     = {HInT: Hypergraph Infusion at the Structural Layers Improves Table Understanding},
+    author    = {Lee, Wonjin and Jeong, Soomi and Kim, Kwang In},
+    booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
+    year      = {2026}
+}</code></pre>
+
+  <h3 style="margin-top: 20px">Acknowledgements</h3>
+  <p class="text" style="text-align: justify;">
+    This work was supported by Samsung Electronics Co., Ltd. (IO240508-09825-01) and by the Korea government (MSIT)
+    through the IITP grant (No. RS-2019-II191906, Artificial Intelligence Graduate School Program (POSTECH)) and the
+    NRF grant (No. RS-2024-00337559).
+  </p>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>
+      This website is loosely built on the <a href="https://shikun.io/projects/clarity">Clarity Template</a>.
+    </p>
+  </div>
+</footer>
+</body>
+</html>
