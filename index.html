@@ -62,17 +62,15 @@
 
         <p class="abstract" style="text-align: justify; padding-top: 20px;">
           Decoder-only large language models (LLMs) struggle with table reasoning because tables must be serialized,
-          which can obscure row- and column-level structure. Prior graph and hypergraph approaches encode structure with
-          an external encoder, but their gains are often inconsistent under autoregressive decoding. We analyze how
-          tabular structure is represented inside decoder-only LLMs and find that row and column relations are
+          which can obscure row- and column-level structure. Prior graph and hypergraph approaches encode structure
+          with an external encoder, but their gains are often inconsistent under autoregressive decoding. We analyze
+          how tabular structure is represented inside decoder-only LLMs and find that row and column relations are
           concentrated in a small subset of layers and attention heads. Based on this observation, we propose
-          <b>HInT</b>, a method that injects hypergraph-derived structural features directly into these <em>structural
-          layers</em>. HInT constructs a table hypergraph over cells and headers, performs lightweight message passing,
-          and fuses the resulting features with token hidden states through token-level gated fusion, while preserving
-          standard autoregressive computation. Experiments across diverse table reasoning tasks show consistent
-          improvements over text-only baselines and prior (hyper)graph-based methods.
-          Our code is available at
-          <a href="https://github.com/MLV-group/HInT">https://github.com/MLV-group/HInT</a>.
+          <b>HInT</b> (<b>H</b>ypergraph <b>In</b>fusion for <b>T</b>able reasoning), which injects hypergraph-derived
+          structural features directly into the layers where these relations are concentrated. HInT constructs a table
+          hypergraph over cells and headers, applies lightweight message passing, and fuses the resulting structural
+          features with token hidden states through gated fusion. Experiments across diverse table reasoning tasks
+          show consistent improvements over text-only baselines and prior (hyper)graph-based methods.
         </p>
 
         <!-- Paper / Code / Poster buttons. Replace the empty href="#" links with real URLs later. -->
@@ -187,18 +185,17 @@
 <div class="container blog main first" id="blog-method" style="text-align: justify;">
   <h1>Method: HInT</h1>
   <p class="text">
-    HInT builds a table hypergraph $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ in which every cell is a node and rows,
-    columns, and hierarchical headers are hyperedges. At each structural layer $l \in \mathcal{L}^{\star}$, we:
+    <b>HInT</b> (<b>H</b>ypergraph <b>In</b>fusion for <b>T</b>able reasoning) builds a table hypergraph
+    $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ in which every cell is a node and rows, columns, and hierarchical
+    headers are hyperedges. At each structural layer $l \in \mathcal{L}^{\star}$, we
+    (1) pool token hidden states into per-cell node features $\mathbf{v}_u$ and per-header hyperedge features
+    $\mathbf{e}_v$;
+    (2) run a lightweight HyperTrans message-passing block over $\mathcal{G}$ to obtain structure-enhanced features
+    $(\widetilde{\mathbf{V}}, \widetilde{\mathbf{E}}) = \mathrm{HyperTrans}(\mathbf{V}, \mathbf{E})$;
+    and (3) fuse the resulting structural feature $\widetilde{\mathbf{g}}_i$ back into each token via a sigmoid gate
+    $\alpha_i = \sigma(\mathbf{w}^{\top}[\mathbf{u}_i \| \widetilde{\mathbf{g}}_i])$ and a convex combination
+    $\widetilde{\mathbf{u}}_i = (1-\alpha_i)\,\mathbf{u}_i + \alpha_i\,\widetilde{\mathbf{g}}_i$.
   </p>
-  <ol class="text">
-    <li>pool token hidden states into per-cell node features $\mathbf{v}_u$ and per-header hyperedge features
-      $\mathbf{e}_v$;</li>
-    <li>run a lightweight HyperTrans message-passing block over $\mathcal{G}$ to obtain structure-enhanced features
-      $(\widetilde{\mathbf{V}}, \widetilde{\mathbf{E}}) = \mathrm{HyperTrans}(\mathbf{V}, \mathbf{E})$;</li>
-    <li>fuse the resulting structural feature $\widetilde{\mathbf{g}}_i$ back into each token via a sigmoid gate
-      $\alpha_i = \sigma(\mathbf{w}^{\top}[\mathbf{u}_i \| \widetilde{\mathbf{g}}_i])$ and a convex combination
-      $\widetilde{\mathbf{u}}_i = (1-\alpha_i)\,\mathbf{u}_i + \alpha_i\,\widetilde{\mathbf{g}}_i$.</li>
-  </ol>
   <p class="text">
     All other layers are left untouched, so the standard autoregressive computation is preserved. Only the HyperTrans
     block, the gate $\mathbf{w}$, and (optionally) the backbone are trained.

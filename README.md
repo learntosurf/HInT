@@ -6,7 +6,7 @@
 
 ## Overview
 
-Overview of the proposed *HInT* framework. We probe a decoder-only LLM to identify the small subset of layers and attention heads that encode row- and column-level table structure. At each of these *structural layers*, *HInT* constructs a table hypergraph over cells and headers, performs lightweight HyperTrans message passing, and fuses the resulting structural features back into the token hidden states through a token-level sigmoid gate &mdash; all while leaving the standard autoregressive computation untouched.
+Overview of the proposed *HInT* (*Hypergraph Infusion for Table reasoning*) framework. We probe a decoder-only LLM to identify the small subset of layers and attention heads that encode row- and column-level table structure. At each of these *structural layers*, *HInT* constructs a table hypergraph over cells and headers, applies lightweight HyperTrans message passing, and fuses the resulting structural features back into the token hidden states through a gated fusion &mdash; all while leaving the standard autoregressive computation untouched.
 
 <p align="center">
   <img src="assets/figures/teaser_method_overview.svg" alt="HInT overview" width="80%" />
@@ -14,7 +14,7 @@ Overview of the proposed *HInT* framework. We probe a decoder-only LLM to identi
 
 ## Abstract
 
-Decoder-only large language models (LLMs) struggle with table reasoning because tables must be serialized, which can obscure row- and column-level structure. Prior graph and hypergraph approaches encode structure with an external encoder, but their gains are often inconsistent under autoregressive decoding. We analyze how tabular structure is represented inside decoder-only LLMs and find that row and column relations are concentrated in a small subset of layers and attention heads. Based on this observation, we propose *HInT*, a method that injects hypergraph-derived structural features directly into these *structural layers*. *HInT* constructs a table hypergraph over cells and headers, performs lightweight message passing, and fuses the resulting features with token hidden states through token-level gated fusion, while preserving standard autoregressive computation. Experiments across diverse table reasoning tasks show consistent improvements over text-only baselines and prior (hyper)graph-based methods.
+Decoder-only large language models (LLMs) struggle with table reasoning because tables must be serialized, which can obscure row- and column-level structure. Prior graph and hypergraph approaches encode structure with an external encoder, but their gains are often inconsistent under autoregressive decoding. We analyze how tabular structure is represented inside decoder-only LLMs and find that row and column relations are concentrated in a small subset of layers and attention heads. Based on this observation, we propose *HInT* (*Hypergraph Infusion for Table reasoning*), which injects hypergraph-derived structural features directly into the layers where these relations are concentrated. *HInT* constructs a table hypergraph over cells and headers, applies lightweight message passing, and fuses the resulting structural features with token hidden states through gated fusion. Experiments across diverse table reasoning tasks show consistent improvements over text-only baselines and prior (hyper)graph-based methods. Our code is available at https://github.com/MLV-group/HInT.
 
 ## Code
 
