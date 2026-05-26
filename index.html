@@ -39,38 +39,51 @@
           src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 
-  <!-- PDF.js for inline PDF rendering without viewer chrome -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js"></script>
+  <!-- PDF.js (v3, UMD) for inline PDF rendering without viewer chrome -->
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
   <script>
-    if (window.pdfjsLib) {
+    (function () {
+      if (!window.pdfjsLib) {
+        console.error("[pdf-figure] pdfjsLib failed to load");
+        return;
+      }
       pdfjsLib.GlobalWorkerOptions.workerSrc =
-        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.js";
-    }
-    function renderPdfCanvas(canvas) {
-      const url = canvas.dataset.pdf;
-      const dpr = window.devicePixelRatio || 1;
-      pdfjsLib.getDocument(url).promise.then(pdf => pdf.getPage(1)).then(page => {
-        const cssWidth = canvas.parentElement.getBoundingClientRect().width;
-        const unscaled = page.getViewport({ scale: 1 });
-        const scale = (cssWidth / unscaled.width) * dpr * 1.5;  // 1.5x oversampling for sharpness
-        const viewport = page.getViewport({ scale });
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-        canvas.style.width = "100%";
-        canvas.style.height = "auto";
-        page.render({ canvasContext: canvas.getContext("2d"), viewport });
+        "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
+
+      function renderPdfCanvas(canvas) {
+        const url = canvas.dataset.pdf;
+        const dpr = window.devicePixelRatio || 1;
+        // use the rendered CSS width of the canvas itself (its max-width style already applies)
+        const cssWidth = canvas.getBoundingClientRect().width
+                       || canvas.parentElement.getBoundingClientRect().width;
+        pdfjsLib.getDocument(url).promise
+          .then(pdf => pdf.getPage(1))
+          .then(page => {
+            const unscaled = page.getViewport({ scale: 1 });
+            const scale = (cssWidth / unscaled.width) * dpr * 1.5;
+            const viewport = page.getViewport({ scale });
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            // keep displayed size at the original CSS width
+            canvas.style.height = "auto";
+            page.render({ canvasContext: canvas.getContext("2d"), viewport });
+          })
+          .catch(err => console.error("[pdf-figure] failed to render", url, err));
+      }
+      function renderAllPdfCanvases() {
+        document.querySelectorAll("canvas.pdf-figure").forEach(renderPdfCanvas);
+      }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", renderAllPdfCanvases);
+      } else {
+        renderAllPdfCanvases();
+      }
+      let _resizeT;
+      window.addEventListener("resize", () => {
+        clearTimeout(_resizeT);
+        _resizeT = setTimeout(renderAllPdfCanvases, 200);
       });
-    }
-    function renderAllPdfCanvases() {
-      document.querySelectorAll("canvas.pdf-figure").forEach(renderPdfCanvas);
-    }
-    document.addEventListener("DOMContentLoaded", renderAllPdfCanvases);
-    // re-render on resize so the canvas stays crisp when viewport changes
-    let _resizeT;
-    window.addEventListener("resize", () => {
-      clearTimeout(_resizeT);
-      _resizeT = setTimeout(renderAllPdfCanvases, 150);
-    });
+    })();
   </script>
 </head>
 
