@@ -71,6 +71,8 @@
           and fuses the resulting features with token hidden states through token-level gated fusion, while preserving
           standard autoregressive computation. Experiments across diverse table reasoning tasks show consistent
           improvements over text-only baselines and prior (hyper)graph-based methods.
+          Our code is available at
+          <a href="https://github.com/MLV-group/HInT">https://github.com/MLV-group/HInT</a>.
         </p>
 
         <!-- Paper / Code / Poster buttons. Replace the empty href="#" links with real URLs later. -->
@@ -121,7 +123,8 @@
 
 <!-- Motivation figure (paper Figure 1) -->
 <div class="container blog main gray">
-  <img src="assets/figures/figure1_motivation.png" alt="Text vs graph-augmented LLMs">
+  <img src="assets/figures/figure1_motivation.png" alt="Text vs graph-augmented LLMs"
+       style="max-width: 55%; display: block; margin: 0 auto;">
   <p class="caption">
     <b>Figure 1 in the paper.</b> Comparison of text-only and graph-augmented LLMs on the WikiTQ, HiTab, and TabFact
     datasets. Despite explicitly modeling table structure, graph-augmented methods do not consistently outperform the
@@ -149,7 +152,8 @@
 </div>
 
 <div class="container blog main gray">
-  <img src="assets/figures/figure2_probing.png" alt="Structural masks and attention maps from probed heads">
+  <img src="assets/figures/figure2_probing.png" alt="Structural masks and attention maps from probed heads"
+       style="max-width: 55%; display: block; margin: 0 auto;">
   <p class="caption">
     <b>Figure 2 in the paper.</b> Left: row and column structural masks $\mathbf{M}^{\text{R}}$ (top) and
     $\mathbf{M}^{\text{C}}$ (bottom). Right: attention maps from heads selected by our structural probing, showing
@@ -202,7 +206,8 @@
 </div>
 
 <div class="container blog main gray">
-  <img src="assets/figures/figure4_hypergraph_construction.png" alt="Hypergraph construction from a table">
+  <img src="assets/figures/figure4_hypergraph_construction.png" alt="Hypergraph construction from a table"
+       style="max-width: 65%; display: block; margin: 0 auto;">
   <p class="caption">
     <b>Figure 4 in the paper.</b> Example hypergraph construction. Each table cell is a node. Row-wise (orange) and
     column-wise (blue) hyperedges group cells that share a row or column, while hierarchical headers (green) induce
@@ -273,7 +278,8 @@
     computation. The result is consistent improvements over strong text-only and encoder-based baselines across diverse
     table reasoning tasks. The same principle &mdash; injecting structured relational information into internally
     aligned layers &mdash; is not inherently limited to tables and is a natural direction for other structured inputs
-    such as knowledge graphs or program representations.
+    such as knowledge graphs or program representations. We make our code publicly available at
+    <a href="https://github.com/MLV-group/HInT">this URL</a>.
   </p>
 </div>
 
