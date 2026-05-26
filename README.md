@@ -9,7 +9,7 @@
 Overview of the proposed *HInT* (*Hypergraph Infusion for Table reasoning*) framework. We probe a decoder-only LLM to identify the small subset of layers and attention heads that encode row- and column-level table structure. At each of these *structural layers*, *HInT* constructs a table hypergraph over cells and headers, applies lightweight HyperTrans message passing, and fuses the resulting structural features back into the token hidden states through a gated fusion &mdash; all while leaving the standard autoregressive computation untouched.
 
 <p align="center">
-  <img src="assets/figures/teaser_method_overview.png" alt="HInT overview" width="80%" />
+  <img src="assets/figures/teaser_method_overview.svg" alt="HInT overview" width="80%" />
 </p>
 
 ## Abstract
